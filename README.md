@@ -4,11 +4,11 @@
 
 종류
 
- - main(master): 제품 출시 브랜치
-   - develop: 출시를 위해 개발하는 브랜치
-   - feat/{기능명}: 새로운 기능 개발하는 브랜치
- - refactor/{기능명}: 개발된 기능을 리팩터링하는 브랜치
- - hotfix: 출시 버전에서 발생한 버그를 수정하는 브랜치
+ - main(master): 제품 출시 브랜치, 가장 최신의 배포된 버전
+   - develop: 출시를 위해 개발하는 브랜치, 릴리즈 계획에 따라서 Github에서 기본 브랜치로 지정
+   - feat/{기능명}: 새로운 기능 개발하는 브랜치, develop에 병합
+ - refactor/{기능명}: 개발된 기능을 리팩터링하는 브랜치, main(master)에 병합
+ - hotfix: 출시 버전에서 발생한 버그를 수정하는 브랜치, main(master)에 병합
 
 예시
  - develop/feat/login

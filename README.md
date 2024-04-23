@@ -11,7 +11,7 @@
  - hotfix: 출시 버전에서 발생한 버그를 수정하는 브랜치
 
 예시
- - devevlop/feat/login
+ - develop/feat/login
  - develop/feat/register
 
 

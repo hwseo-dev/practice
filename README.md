@@ -1,6 +1,44 @@
 # Git Convention
 
-## 1. Branch
+## 1. Issue 작성
+
+개발/이슈 사항 확인 후 github issue 등록
+제목과 상세내용은 하기와 같은 포맷으로 등록
+ - title : [type] 제목
+
+ - description : 
+                 
+                 버그 설명
+                 
+                 > 어떤 버그인지 자세하게 설명해주세요.
+                 
+                 
+                 재현 방법
+                 
+                 > (가능하면) Given-When-Then 형식으로 서술해주세요.
+                 
+                 
+                 예상 결과
+                 
+                 > 예상했던 정상적인 결과가 어떤 것이었는지 설명해주세요.
+                 
+                 
+                 스크린샷
+                 
+                 > 가능한 경우 문제를 파악하는데 도움이되는 스크린샷을 추가해주세요.
+                 
+                 
+                 참고할만한 자료(선택)
+
+
+![image](https://github.com/hwseo-dev/practice/assets/162098256/5afdb0d6-d5c0-48a1-9115-a25fc2d60dd9)
+
+
+
+
+
+
+## 2. Branch
 
 종류
 
@@ -15,7 +53,7 @@
  - develop/feat/register
 
 
-## 2. 커밋 메시지 구조
+## 3. 커밋 메시지 구조
 ```
 type(issue #no) : subject
 
@@ -87,3 +125,5 @@ Resolves: #111
 Ref: #122
 related to: #30, #50
 ```
+
+
